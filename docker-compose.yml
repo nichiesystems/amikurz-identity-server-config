@@ -63,7 +63,7 @@ services:
             JAVA_OPTS: " -XX:MinRAMPercentage=50 -XX:MaxRAMPercentage=80"
 
     share:
-        image: alfresco/alfresco-share:${SHARE_TAG}
+        image: nichie/amikurz-share:latest
         mem_limit: 1872m
         environment:
             REPO_HOST: "alfresco"
